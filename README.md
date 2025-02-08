@@ -22,6 +22,23 @@ Lightbox::widget(['width' => 600, 'height' => 400])->run();
 Gm::$loader->addPsr4('Gm\Widget\Fancybox\\', Gm::$app->modulePath . '/gm/gm.wd.fancybox/src');
 ```
 
+## Установка
+
+Для добавления виджета в ваш проект, вы можете просто выполнить команду ниже:
+
+```
+$ composer require gearmagicru/gm-wd-fancybox
+```
+
+или добавить в файл composer.json вашего проекта:
+```
+"require": {
+    "gearmagicru/gm-wd-fancybox": "*"
+}
+```
+
+После добавления виджета в проект, воспользуйтесь Панелью управления GM Panel для установки его в редакцию вашего веб-приложения.
+
 ## Ресурсы
 - [Старая версия Fancybox](http://fancybox.net/)
 - [UI компонент Fancybox](https://fancyapps.com/fancybox/)
